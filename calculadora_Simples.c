@@ -35,15 +35,11 @@ int main(void){
 	
 	 	   					     result=a/b;
 	  						      printf("a divisao : %.2f.\n");
-			
-	
-	
-	
      }
 
 
 
 
 
-
+return 0;
 }
