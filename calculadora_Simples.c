@@ -3,7 +3,7 @@
 int main(void){
 	float a, b, result, operacao;
  
-	printf("qual operacao voce quer :\n");
+	printf("qual operacao voce deseja :\n");
 	printf("1 - somar \n");
 	printf("2 - subtrair \n");
 	printf("3 - multiplicar \n");
