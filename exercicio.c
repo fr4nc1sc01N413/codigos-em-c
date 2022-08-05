@@ -15,8 +15,8 @@ int main(void){
 					scanf("%f", &c);
 				
 					f = (c * 1.8) + 32;
-					C = 
-					printf("O valor %.1f em fahrenheit e %.1f\n", c, f );
+					k = c + 273.15;
+					printf("O valor %.1f em fahrenheit %.1f em kelvin %.2f", c, f, k);
 			}
 		else if(a == 2) {
 			
@@ -24,7 +24,8 @@ int main(void){
 						scanf("%f", &f);
 							
 						c = (f - 32) /1.8;
-						printf("O valor %.1f em celsius e %.1f\n", f, c);	
+						k =  (f - 32) * 5/9 + 273.15;
+						printf("O valor %.2f em celsius %.2f em kelvin %.2f", f, c, k);	
 			}
 		else if(a == 3) {
 						printf("Digite o valor para kelvin:\n");
@@ -32,11 +33,12 @@ int main(void){
 						
 						 c = (k - 273.15);
 						 f = (k - 273.15) * 9/5 + 32;
+						 printf("o valor %.2f em fahrenheit %.2f em celsius %.2f \n", k, f, c);
 							}
 		else if(a >=4 && a <=100000000000) {
 								
 								printf("Esta opcao esta indisponivel, tente novamente\n");
-								
+								printf("Reinicie o programa\n");
 							}
 			
  return 0;

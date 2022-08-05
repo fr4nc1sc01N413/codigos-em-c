@@ -1,9 +1,6 @@
 #include <stdio.h>
 
 main(void){
-	//Escreva um programa que guarde em uma variável o valor, em Fahrenheit,
-//correspondente a 37ºC. Em seguida, o programa deverá exibir esse valor na
-//tela.
 
 
 	int h ,d ,s ,mh ;
