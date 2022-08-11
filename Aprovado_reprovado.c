@@ -3,21 +3,20 @@
 int main(){
 	
 	
-	
  	float m; 
 	
 	printf("Insira a nota:\n");
 	scanf("%f", &m);
 	
-	if(m >=7.0)
-{
+		if(m >=7.0){
 	
-	printf("Aprovado(a)!\n");
+			printf("Aprovado(a)!\n");
 	
- }else if(m <=7.0){
+ 		}
+ 		else if(m <=7.0){
  	
- 	printf("Reprovado(a)!\n");
- }
+ 			printf("Reprovado(a)!\n");
+ 	}
 	
 	
 	
