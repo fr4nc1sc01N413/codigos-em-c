@@ -8,7 +8,7 @@ int main(void){
 	
 	//Primeiro criar uma opção de time para o usuario.
 	
-	int times
+	int times;
 	
 		printf("Bem-Vindo!\n");
 		
@@ -37,17 +37,21 @@ int main(void){
    			printf("(20)America-Mg\n");
    				scanf("%d", &times);
    				
-				if(times = 0 || >= 21){
+				if(times = 0 >= 21){
 					
 					printf("Indisponivel, escolha novamente\n");
 					
 				}
-				
-				if(times = 1){
+				else if(times = 1){
 				
 					printf ("Ceara campeao da serie A");
 					
 				}
+				else if(times = 2){
+					
+					printf("Flamengo");
+				}
+				
 				
 	return 0;
 }
