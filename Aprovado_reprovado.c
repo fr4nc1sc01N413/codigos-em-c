@@ -13,7 +13,7 @@ int main(){
 			printf("Aprovado(a)!\n");
 	
  		}
- 		else if(m <=7.0){
+ 		else if(m <=6.9){
  	
  			printf("Reprovado(a)!\n");
  	}
